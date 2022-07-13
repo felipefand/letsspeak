@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32602.215
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Let's Speak", "Let's Speak.csproj", "{C2B39F6A-7428-4601-BFE6-6CA99DB51AA8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LetsSpeak", "LetsSpeak.csproj", "{C2B39F6A-7428-4601-BFE6-6CA99DB51AA8}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
