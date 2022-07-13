@@ -55,7 +55,9 @@ namespace LetsSpeak
             Console.WriteLine("Type in your search: ");
             var searchWord = Console.ReadLine();
 
-            var foundWords = dictionary.GetWordList().Where((w) => w.Key.Contains(searchWord)).ToDictionary(w => w.Key, w => w.Value);
+            var foundWords = dictionary.GetWordList()
+                .Where((w) => w.Key.Contains(searchWord, StringComparison.InvariantCultureIgnoreCase))
+                .ToDictionary(w => w.Key, w => w.Value);
 
             Console.Clear();
             if (foundWords.Count == 0)
