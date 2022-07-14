@@ -16,6 +16,10 @@ namespace LetsSpeak
         public Dictionary<string, string> LoadFile(string fileName)
         {
             var path = Path.Combine(filePath, fileName);
+
+            if (!File.Exists(path))
+                SaveFile(fileName, new Dictionary<string, string>());
+
             var content = File.ReadAllText(path);
             var dictionary = System.Text.Json.JsonSerializer.Deserialize<Dictionary<string, string>>(content);
 

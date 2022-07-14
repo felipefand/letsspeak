@@ -11,7 +11,6 @@
             var menuHandler = new MenuHandler();
             var menu = menuHandler.CreateMenu(dictionaryHandler);
             menuHandler.RunMenu(menu);
-
         }
     }
 }
