@@ -1,6 +1,6 @@
 # Let's Speak
 
-## Actitivy
+## Activity
 
 You have been hired by the language school "Let's Speak" to build a dictionary application for the students.
 
